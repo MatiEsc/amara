@@ -1,0 +1,10 @@
+.footer-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  bottom: 0;
+}
