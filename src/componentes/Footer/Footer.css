@@ -1,10 +1,29 @@
-.footer-menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-  padding: 20px;
-  background-color: #f4f4f4;
-  color: #333;
+/* src/components/Footer.css */
+.footer {
+  background-color: #423275;
+  color: #ffffff;
+  width: 100%;
+  padding: 2rem;
+  text-align: left;
+  position: fixed; /* Fija el footer en la parte inferior */
   bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
 }
