@@ -1,0 +1,37 @@
+.services {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.services h3 {
+  font-size: 1.5rem;
+  background-color: #f2bac9;
+  color: black;
+  width: 100%;
+}
+.containerService {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "imagen1 descripcion1"
+    "descripcion2 imagen2";
+}
+
+.imagen1 {
+  grid-area: imagen1;
+}
+
+.descripcion1 {
+  grid-area: descripcion1;
+}
+
+.descripcion2 {
+  grid-area: descripcion2;
+}
+
+.imagen2 {
+  grid-area: imagen2;
+}
