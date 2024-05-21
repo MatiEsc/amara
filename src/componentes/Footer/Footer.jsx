@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="footer-content">
         <p>Córdoba Argentina</p>
         <p>Envíos a todo el país</p>
-        <div className="icon-row">
+        <div className="icon-shipping">
           <MdOutlineLocalShipping />
         </div>
         <div className="icon-row">

@@ -4,8 +4,7 @@ const NavBar = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <img src="/public/img/navBar/logoNavbar.png" alt="Logo" className="logo" />
-        <p className="brand-name">AMARA</p>
+        <img src="/public/img/navBar/logoNavDesk.png" alt="Logo" className="logo" />
       </div>
       <nav>
         <ul>
