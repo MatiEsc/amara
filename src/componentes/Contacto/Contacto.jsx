@@ -2,8 +2,8 @@ import "./Contacto.css";
 
 const Contacto = () => {
   return (
-    <section className="contact">
-      <h3>Contactactanos</h3>
+    <section id="contacto" className="contact">
+      <h3>Contactanos</h3>
     </section>
   );
 };

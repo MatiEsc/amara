@@ -2,7 +2,7 @@ import "./Productos.css";
 
 const Productos = () => {
   return (
-    <section className="products">
+    <section id="productos" className="products">
       <h3>Productos</h3>
     </section>
   );

@@ -1,6 +1,8 @@
 .footer {
+  font-family: "Montserrat", sans-serif;
   background-color: #423275;
-  color: #ffffff;
+  color: #f5e4d5;
+  height: 453px;
   width: 100%;
   padding: 2rem;
   text-align: center;
@@ -9,6 +11,9 @@
   right: 0;
   box-sizing: border-box;
   margin: 0;
+  display: flex; /* Utilizar flexbox para centrar el contenido */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
 }
 
 .footer-content {
@@ -18,8 +23,15 @@
   justify-content: center;
 }
 
+.footer-content h4 {
+  font-size: 20px;
+  color: #f5e4d5;
+}
+
 .footer-content p {
-  margin: 0.5rem 0;
+  font-size: 15px;
+  color: #f5e4d5;
+  margin-top: 0;
 }
 
 .icon-row {
@@ -33,14 +45,14 @@
 }
 
 .icon-link {
-  color: #ffffff; /* Asegura que el color de los íconos sea blanco */
-  border: 1px solid #ffffff; /* Contorno blanco del círculo */
+  color: #f5e4d5; /* Asegura que el color de los íconos sea blanco */
+  border: 1px solid #f5e4d5; /* Contorno blanco del círculo */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px; /* Ajustar según el tamaño deseado */
-  height: 30px; /* Ajustar según el tamaño deseado */
+  width: 40px; /* Ajustar según el tamaño deseado */
+  height: 40.13px; /* Ajustar según el tamaño deseado */
   text-decoration: none;
 }
 

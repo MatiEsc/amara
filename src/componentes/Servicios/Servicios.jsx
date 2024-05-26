@@ -2,18 +2,20 @@ import "./Servicios.css";
 
 const Servicios = () => {
   return (
-    <section className="services">
+    <section id="servicios" className="services">
       <h3>Servicios</h3>
-      <div class="containerService">
-        <div class="imagen1">imagen1</div>
-        <div class="descripcion1">
+      <div className="containerService">
+        <div className="imagen1">
+          <img src="/public/img/servicios/refill.png" alt="refill" />
+        </div>
+        <div className="descripcion1">
           <h4>REFILL DE VELAS Y DIFUSORES AROMATICOS</h4>
           <p>
             Reciclá el envase de vela o difusor que tenés en tu hogar, renovando el aroma y la
             decoración a muy bajo costo.
           </p>
         </div>
-        <div class="descripcion2">
+        <div className="descripcion2">
           <h4>SERVICIO PERSONALIZADO Y SOUVENIRS</h4>
           <p>
             Ofrece a tus invitados velitas, bombones o difusores aromáticos, para que se lleven de
@@ -21,7 +23,9 @@ const Servicios = () => {
             vela o difusor.
           </p>
         </div>
-        <div class="imagen2">imagen2</div>
+        <div className="imagen2">
+          <img src="/public/img/servicios/BackgroundBorder.png" alt="backgroundBorder" />
+        </div>
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>Córdoba Argentina</p>
+        <h4>Córdoba Argentina</h4>
         <p>Envíos a todo el país</p>
         <div className="icon-shipping">
           <MdOutlineLocalShipping />

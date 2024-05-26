@@ -6,10 +6,14 @@
 }
 
 .contact h3 {
-  font-size: 1.5rem;
-  background-color: #f2bac9;
-  color: black;
+  font-family: "HolidayFree", sans-serif; /* Aplica la fuente HolidayFree */
+  font-size: 32pt; /* Tamaño de fuente de 32 puntos */
+  background-color: #f2bac9; /* Color de fondo */
+  color: #251609; /* Color de texto */
   width: 100%;
-  margin: 0; /* Eliminar márgenes alrededor del título */
-  padding: 1rem 0; /* Agregar relleno para espaciar el texto */
+  height: 100px;
+  display: flex; /* Para centrar verticalmente */
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
+  margin: 0;
 }

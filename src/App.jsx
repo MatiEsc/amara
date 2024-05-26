@@ -6,21 +6,22 @@ import Footer from "./componentes/Footer/Footer";
 import Servicios from "./componentes/Servicios/Servicios";
 import Contacto from "./componentes/Contacto/Contacto";
 import Principal from "./componentes/Principal/Principal";
+import Productos from "./componentes/Productos/Productos";
+import SobreNosotros from "./componentes/SobreNosotros/SobreNosotros";
 
 import "./App.css";
-import Productos from "./componentes/Productos/Productos";
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
       <NavBar />
       <Principal />
       <Productos />
-      <h1>AMARA</h1>
       <Servicios />
+      <SobreNosotros />
       <Contacto />
       <Footer />
-    </BrowserRouter>
+    </div>
   );
 }
 

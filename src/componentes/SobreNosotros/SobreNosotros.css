@@ -1,0 +1,47 @@
+.sobreNosotros {
+  position: relative; /* Establece la posición relativa para que los elementos internos se posicionen relativamente a este contenedor */
+}
+
+.sobreNosotros h3 {
+  font-family: "HolidayFree", sans-serif; /* Aplica la fuente HolidayFree */
+  font-size: 32pt; /* Tamaño de fuente de 32 puntos */
+  background-color: #f2bac9; /* Color de fondo */
+  color: #251609; /* Color de texto */
+  width: 100%;
+  height: 100px;
+  display: flex; /* Para centrar verticalmente */
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
+  margin-bottom: 0%;
+}
+.sobreNosotros img {
+  width: 100%;
+  height: 899px;
+  object-fit: cover;
+  margin-top: 0%;
+}
+
+.sobreNosotros p {
+  position: absolute; /* Establece la posición absoluta para que el párrafo se posicione sobre la imagen */
+  top: 195px; /* Margen superior */
+  left: 666.28px; /* Margen izquierdo */
+  bottom: 576px; /* Margen inferior */
+  right: 52.72px; /* Margen derecho */
+  font-family: "Montserrat", sans-serif;
+  color: #251609;
+  font-size: 26pt;
+  text-align: center;
+}
+
+.logoFinal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoFinal img {
+  width: 155px;
+  height: 139px;
+  margin-top: 95px;
+  margin-bottom: 71px;
+}

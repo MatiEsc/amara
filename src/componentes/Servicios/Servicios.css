@@ -1,14 +1,25 @@
+@font-face {
+  font-family: "corporative-light";
+  src: url("../../fonts/corporative-light.otf"); /* Ruta relativa a la carpeta de fuentes */
+}
+
 .services {
-  background-color: #f5f5f5;
+  background-color: #f5e4d5;
   text-align: center;
 }
 
 .services h3 {
-  font-size: 1.5rem;
-  background-color: #f2bac9;
-  color: black;
+  font-family: "HolidayFree", sans-serif; /* Aplica la fuente HolidayFree */
+  font-size: 32pt; /* Tamaño de fuente de 32 puntos */
+  background-color: #f2bac9; /* Color de fondo */
+  color: #251609; /* Color de texto */
   width: 100%;
+  height: 100px;
+  display: flex; /* Para centrar verticalmente */
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
 }
+
 .containerService {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,20 +29,63 @@
   grid-template-areas:
     "imagen1 descripcion1"
     "descripcion2 imagen2";
+  width: 100%;
 }
 
 .imagen1 {
   grid-area: imagen1;
+  width: 624px;
+  height: 578px;
+  border-radius: 21px;
+  box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);
+  /*filter: blur(4.2px);*/
+  margin-top: 110px;
+  margin-left: 100px;
 }
 
 .descripcion1 {
   grid-area: descripcion1;
+  padding: 0 80px;
 }
 
+.descripcion1 h4 {
+  font-family: "corporative-light", sans-serif;
+  color: #251609;
+  font-size: 24pt;
+  margin-top: 300px;
+  text-align: start;
+}
+
+.descripcion1 p {
+  font-family: "Montserrat", sans-serif;
+  color: #251609;
+  font-size: 20pt;
+  text-align: start;
+}
 .descripcion2 {
   grid-area: descripcion2;
+  padding: 0 80px;
 }
 
+.descripcion2 h4 {
+  font-family: "corporative-light", sans-serif;
+  color: #251609;
+  font-size: 24pt;
+  margin-top: 200px;
+  text-align: start;
+}
+
+.descripcion2 p {
+  font-family: "Montserrat", sans-serif;
+  color: #251609;
+  font-size: 20pt;
+  text-align: start;
+}
 .imagen2 {
   grid-area: imagen2;
+  width: 624px;
+  height: 578px;
+  border-radius: 21px;
+  box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);
+  /*filter: blur(4.2px);*/
 }
