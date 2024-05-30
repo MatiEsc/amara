@@ -10,7 +10,8 @@
 .products {
   background-color: #f5e4d5;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
+  width: 100%;
 }
 
 .products h3 {

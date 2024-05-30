@@ -23,8 +23,8 @@
 
 .sobreNosotros p {
   position: absolute; /* Establece la posición absoluta para que el párrafo se posicione sobre la imagen */
-  top: 195px; /* Margen superior */
-  left: 666.28px; /* Margen izquierdo */
+  top: 15rem; /* Margen superior */
+  left: 45rem; /* Margen izquierdo */
   bottom: 576px; /* Margen inferior */
   right: 52.72px; /* Margen derecho */
   font-family: "Montserrat", sans-serif;
