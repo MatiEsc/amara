@@ -1,0 +1,253 @@
+{
+  "deco": [
+    {
+      "nombre": "CARAMELERA REAL",
+      "imagen": "/public/img/deco/carameleraReal.jpg",
+      "material": "Vidrio",
+      "variantes": ["sin variante"],
+      "medidas": "11cm alto X 9cm ancho. 130gr"
+    },
+    {
+      "nombre": "CARAMELERA CIRCO",
+      "imagen": "/public/img/deco/carameleraCircoMediana.jpg",
+      "material": "Vidrio",
+      "variantes": ["Amarillo", "Verde", "Azul", "Blanco"],
+      "medidas": "chico 7,5cm diámetro X 8cm alto (S/M/L)"
+    },
+    {
+      "nombre": "CARAMELERA DIAMANTE",
+      "imagen": "/public/img/deco/carameleraDiamante.jpg",
+      "material": "Vidrio",
+      "variantes": ["sin variante"],
+      "medidas": "120 gr"
+    },
+    {
+      "nombre": "CARAMELERA REINA",
+      "imagen": "/public/img/deco/carameleraReina.jpg",
+      "material": "Vidrio",
+      "variantes": ["sin variante"],
+      "medidas": "13cm alto x 5,9cm ancho, 100gr"
+    },
+    {
+      "nombre": "CARAMELERA YESO",
+      "imagen": "/public/img/deco/carameleraYeso.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores", "Unicolor", "Combinada"],
+      "medidas": "9,5cm alto X 7cm diámetro. 60gr"
+    },
+    {
+      "nombre": "BASE HEXAGONAL",
+      "imagen": "/public/img/deco/baseHexagonal.jpg",
+      "material": "Yeso",
+      "variantes": ["Unicolor", "Bicolor Combinada"],
+      "medidas": "11cm"
+    },
+    {
+      "nombre": "BASE OVAL",
+      "imagen": "/public/img/deco/baseOval.jpg",
+      "material": "Yeso",
+      "variantes": ["Unicolor", "Bicolor Combinada"],
+      "medidas": "18cm largo x 9,5cm alto"
+    },
+    {
+      "nombre": "BASE CIRCULAR",
+      "imagen": "/public/img/deco/baseRedonda.jpg",
+      "material": "Yeso",
+      "variantes": ["Unicolor", "Bicolor Combinada"],
+      "medidas": "8cm diámetro"
+    },
+    {
+      "nombre": "BASE NUBE",
+      "imagen": "/public/img/deco/baseNube.jpg",
+      "material": "Yeso",
+      "variantes": ["Unicolor", "Bicolor Combinada"],
+      "medidas": "8cm diámetro"
+    },
+    {
+      "nombre": "FLORERO CUADRADO",
+      "imagen": "/public/img/deco/floreroCuadrado.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores", "Únicos", "Combinados"],
+      "medidas": "9cm alto x 7cm ancho"
+    },
+    {
+      "nombre": "FLORERO BOTELLA",
+      "imagen": "/public/img/deco/floreroBotella.jpg",
+      "material": "Yeso",
+      "variantes": ["sin variante"],
+      "medidas": "10cm alto x 7cm ancho"
+    },
+    {
+      "nombre": "FLORES DE TELA",
+      "imagen": "/public/img/deco/floresTela.jpg",
+      "material": "Tusor, Arpillera, Lienzo",
+      "variantes": ["sin variante"],
+      "medidas": "Con función decorativas y difusoras"
+    },
+    {
+      "nombre": "COMBOS",
+      "imagen": "/public/img/deco/combos.jpg",
+      "material": "Varios",
+      "variantes": ["sin variante"],
+      "medidas": "depende el combo"
+    }
+  ],
+  "aroma": [
+    {
+      "nombre": "VELAS DESEOS",
+      "imagen": "/public/img/aroma/velaDeseos.jpg",
+      "material": "",
+      "variantes": [
+        "Presentadas en caja con visor en caso de los 16 deseos. Si es individual se utilizan para las tortas."
+      ],
+      "medidas": "3 cm"
+    },
+    {
+      "nombre": "LATITAS",
+      "imagen": "/public/img/aroma/latitasMetalicas.jpg",
+      "material": "metálicas",
+      "variantes": ["Dorado", "Plateado"],
+      "medidas": "5,8 x 2cm alto/ 6cm x 1,4cm alto"
+    },
+    {
+      "nombre": "CUENCOS REDONDOS",
+      "imagen": "/public/img/aroma/cuencoMadera.jpg",
+      "material": "madera",
+      "variantes": [""],
+      "medidas": "chico 80gr, mediano 100gr, grande 140gr"
+    },
+    {
+      "nombre": "CUENCOS CORAZÓN-ESTRELLA",
+      "imagen": "/public/img/aroma/cuencoCorazon.jpg",
+      "material": "madera",
+      "variantes": [""],
+      "medidas": "20gr"
+    },
+    {
+      "nombre": "VELA AURA",
+      "imagen": "/public/img/aroma/velaAura.jpg",
+      "material": "vidrio",
+      "variantes": ["vaso whisky, con o sin tapa de madera"],
+      "medidas": "250 gr"
+    },
+    {
+      "nombre": "VELA VOLCÁN",
+      "imagen": "/public/img/aroma/velaVolcan.jpg",
+      "material": "vidrio",
+      "variantes": [""],
+      "medidas": "180 gr"
+    },
+    {
+      "nombre": "VELA CÓNICA",
+      "imagen": "/public/img/aroma/velaConica.jpg",
+      "material": "vidrio",
+      "variantes": ["Con tapa", "Sin tapa"],
+      "medidas": "250 gr"
+    },
+    {
+      "nombre": "VELAS PECERA",
+      "imagen": "/public/img/aroma/velaPecera.jpg",
+      "material": "Vidrio",
+      "variantes": ["Chica", "Mediana", "Grande"],
+      "medidas": "chicas (90 gr) - medianas (130 gr) - grandes (220 gr)"
+    },
+    {
+      "nombre": "MANITO PORTA SAHUMERIO",
+      "imagen": "/public/img/aroma/manitoPortaSahumerio.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": "12cm alto x 9,5cm ancho"
+    },
+    {
+      "nombre": "VELA LABRADA CON TAPA",
+      "imagen": "/public/img/aroma/velaLabrada.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": "6,5cm alto x 5,5cm diámetro. 170 gr"
+    },
+    {
+      "nombre": "ESFERA LABRADA",
+      "imagen": "/public/img/aroma/esferaLabrada.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": "6,5xm alto x 5,5cm diámetro. 60 gr"
+    },
+    {
+      "nombre": "ESFERA LISA",
+      "imagen": "/public/img/aroma/esferaLisa.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": "6,5 alto x 5,5 diámetro. 60gr"
+    },
+    {
+      "nombre": "HEXAGONAL MAX",
+      "imagen": "/public/img/aroma/hexagonalMax.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": "7 cm alto por 8.5 diámetro. 110 gr"
+    },
+    {
+      "nombre": "VELA BUBBLE",
+      "imagen": "/public/img/aroma/velaBubble.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": "4cm alto x 8cm diámetro. 30gr"
+    },
+    {
+      "nombre": "HEXAGONAL FACETADO",
+      "imagen": "/public/img/aroma/hexagonalFacetado.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": "4cm alto x 8cm diámetro. 60 gr"
+    },
+    {
+      "nombre": "VELA CORAZÓN",
+      "imagen": "/public/img/aroma/velaCorazon.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": " 4,7 alto x 5,5cm diámetro. 30gr"
+    },
+    {
+      "nombre": "VELA OCTOGONAL",
+      "imagen": "/public/img/aroma/velaOctagonal.jpg",
+      "material": "Yeso",
+      "variantes": ["Varios Colores"],
+      "medidas": "4,7cm alto x 5,5cm diámetro. 60 gr"
+    },
+    {
+      "nombre": "BOMBONES DE AROMA",
+      "imagen": "/public/img/aroma/bombonAroma.jpg",
+      "material": "vela",
+      "variantes": ["Presentación en cajitas con visor", "Presentación en bolsitas de organza"],
+      "medidas": "1cm/3cm"
+    },
+    {
+      "nombre": "DIFUSORES PLÁSTICO",
+      "imagen": "/public/img/aroma/difusoresPastico.jpg",
+      "material": "Plastico",
+      "variantes": ["Redondo", "Cuadrado"],
+      "medidas": "70cc, 125cc con 6 varillas difusoras de bamboo negro o marrón"
+    },
+    {
+      "nombre": "DIFUSORES DE VIDRIO",
+      "imagen": "/public/img/aroma/difusoresVidrio.jpg",
+      "material": "Vidrio",
+      "variantes": ["con tapa de madera difusora"],
+      "medidas": "200cc con 6 varillas difusoras bamboo negro o marrón"
+    },
+    {
+      "nombre": "VELA ALMENDRA",
+      "imagen": "/public/img/aroma/velaAlmendra.jpg",
+      "material": "Vidrio",
+      "variantes": ["Con tapa dorada", "Con tapa blanca"],
+      "medidas": "290 gr"
+    },
+    {
+      "nombre": "VELA HEXAGONAL 360",
+      "imagen": "/public/img/aroma/velaHexagonal360.jpg",
+      "material": "Vidrio",
+      "variantes": ["Con tapa dorada", "Con tapa blanca"],
+      "medidas": "360gr"
+    }
+  ]
+}

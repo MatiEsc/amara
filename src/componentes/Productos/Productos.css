@@ -2,10 +2,15 @@
   font-family: "HolidayFree";
   src: url("../../fonts/HolidayFree.otf"); /* Ruta relativa a la carpeta de fuentes */
 }
+@font-face {
+  font-family: "CorporativeRegular";
+  src: url("../../fonts/CorporativeRegular.otf"); /* Ruta relativa a la carpeta de fuentes */
+}
 
 .products {
   background-color: #f5e4d5;
   text-align: center;
+  padding: 20px;
 }
 
 .products h3 {
@@ -18,4 +23,71 @@
   display: flex; /* Para centrar verticalmente */
   justify-content: center; /* Para centrar horizontalmente */
   align-items: center; /* Para centrar verticalmente */
+}
+
+.products h4 {
+  font-family: "CorporativeRegular", sans-serif;
+  font-size: 24pt;
+  height: 100px;
+  color: #251609;
+  margin-top: 75px;
+}
+
+.contenedorCards {
+  border-style: dashed;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.cards {
+  padding: 0 30px; /* Añade padding a los contenedores de las tarjetas */
+}
+
+.card {
+  width: 280px;
+  height: 460px;
+  background-color: #dcd5f5;
+  color: #251609;
+  border-radius: 10px;
+  margin: 1rem; /* Margin uniforme alrededor de cada tarjeta */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.card img {
+  width: 280px;
+  height: 230px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h5 {
+  font-family: "CorporativeRegular", sans-serif;
+  font-size: 18pt;
+}
+
+.card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14pt;
+}
+
+.slick-prev,
+.slick-next {
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  left: -35px;
+}
+
+.slick-next {
+  right: -35px;
 }
