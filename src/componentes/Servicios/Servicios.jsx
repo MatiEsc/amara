@@ -6,7 +6,7 @@ const Servicios = () => {
       <h3>Servicios</h3>
       <div className="containerService">
         <div className="imagen1">
-          <img src="/public/img/servicios/refill.png" alt="refill" />
+          <img src="/img/servicios/refill.png" alt="refill" />
         </div>
         <div className="descripcion1">
           <h4>REFILL DE VELAS Y DIFUSORES AROMATICOS</h4>
@@ -24,7 +24,7 @@ const Servicios = () => {
           </p>
         </div>
         <div className="imagen2">
-          <img src="/public/img/servicios/BackgroundBorder.png" alt="backgroundBorder" />
+          <img src="/img/servicios/BackgroundBorder.png" alt="backgroundBorder" />
         </div>
       </div>
     </section>
