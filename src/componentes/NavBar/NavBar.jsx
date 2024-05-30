@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <header id="home" className="header">
       <div className="logo-container">
-        <img src="/public/img/navBar/logoNavDesk.png" alt="Logo" className="logo" />
+        <img src="/img/navBar/logoNavDesk.png" alt="Logo" className="logo" />
       </div>
       <nav>
         <ul>
