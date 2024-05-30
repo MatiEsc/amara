@@ -1,0 +1,44 @@
+.card {
+  width: 280px;
+  height: 460px;
+  background-color: #dcd5f5;
+  color: #251609;
+  border-radius: 10px;
+  margin: 1rem; /* Margin uniforme alrededor de cada tarjeta */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.card img {
+  width: 280px;
+  height: 230px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card h5 {
+  font-family: "CorporativeRegular", sans-serif;
+  font-size: 18pt;
+  margin: 10px 0; /* Ajusta el margen superior e inferior */
+}
+
+.card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14pt;
+  margin: 5px 0; /* Ajusta el margen superior e inferior */
+  text-align: center; /* Opcional: centra el texto */
+}
+
+/* Ajusta el padding del contenedor de texto */
+.card .text-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%; /* Asegura que tome todo el espacio disponible */
+}

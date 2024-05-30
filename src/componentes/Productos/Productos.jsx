@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Productos.css";
+import Card from "../Card/Card";
 
 const Productos = () => {
   const settings = {
@@ -11,7 +12,7 @@ const Productos = () => {
     infinite: false,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     responsive: [
@@ -20,7 +21,7 @@ const Productos = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
         },
       },
       {
@@ -28,6 +29,7 @@ const Productos = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          infinite: false,
         },
       },
     ],
@@ -41,15 +43,7 @@ const Productos = () => {
       <div className="contenedorCards">
         <Slider {...settings}>
           {productosData.deco.map((producto, index) => (
-            <div key={index} className="cards">
-              <div className="card">
-                <img className="cardImagen" src={producto.imagen} alt={producto.nombre} />
-                <h5>{producto.nombre}</h5>
-                <p>Material: {producto.material}</p>
-                <p>Variantes: {producto.variantes.join(", ")}</p>
-                <p>Medidas: {producto.medidas}</p>
-              </div>
-            </div>
+            <Card key={index} producto={producto} /> // Usa el componente Card
           ))}
         </Slider>
       </div>
@@ -58,15 +52,7 @@ const Productos = () => {
       <div className="contenedorCards">
         <Slider {...settings}>
           {productosData.aroma.map((producto, index) => (
-            <div key={index} className="cards">
-              <div className="card">
-                <img src={producto.imagen} alt={producto.nombre} />
-                <h5>{producto.nombre}</h5>
-                <p>Material: {producto.material}</p>
-                <p>Variantes: {producto.variantes.join(", ")}</p>
-                <p>Medidas: {producto.medidas}</p>
-              </div>
-            </div>
+            <Card key={index} producto={producto} /> // Usa el componente Card
           ))}
         </Slider>
       </div>

@@ -15,11 +15,11 @@ const Footer = () => {
           <MdOutlineLocalShipping />
         </div>
         <div className="icon-row">
-          <a href="mailto:contacto@tienda-amara.com" className="icon-link">
+          <a href="mailto:tiendaastrea@gmail.com" className="icon-link">
             <CiMail />
           </a>
           <a
-            href="https://wa.me/123456789"
+            href="https://wa.me/3516001250"
             className="icon-link"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const Footer = () => {
             <FaWhatsapp />
           </a>
           <a
-            href="https://www.instagram.com/tu_tienda"
+            href="https://www.instagram.com/amaracba"
             className="icon-link"
             target="_blank"
             rel="noopener noreferrer"

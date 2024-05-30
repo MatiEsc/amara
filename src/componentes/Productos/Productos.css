@@ -35,44 +35,14 @@
 
 .contenedorCards {
   border-style: dashed;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  border-width: 1px;
+  border-color: #8a2be2;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .cards {
-  padding: 0 30px; /* Añade padding a los contenedores de las tarjetas */
-}
-
-.card {
-  width: 280px;
-  height: 460px;
-  background-color: #dcd5f5;
-  color: #251609;
-  border-radius: 10px;
-  margin: 1rem; /* Margin uniforme alrededor de cada tarjeta */
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-}
-
-.card img {
-  width: 280px;
-  height: 230px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.card h5 {
-  font-family: "CorporativeRegular", sans-serif;
-  font-size: 18pt;
-}
-
-.card p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 14pt;
+  padding: 0 15px; /* Añade padding a los contenedores de las tarjetas */
 }
 
 .slick-prev,

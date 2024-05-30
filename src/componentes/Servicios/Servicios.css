@@ -37,7 +37,7 @@
   width: 624px;
   height: 578px;
   border-radius: 21px;
-  box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);
+  /*box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);*/
   /*filter: blur(4.2px);*/
   margin-top: 110px;
   margin-left: 100px;
@@ -86,7 +86,7 @@
   width: 624px;
   height: 578px;
   border-radius: 21px;
-  box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);
+  /*box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);*/
   /*filter: blur(4.2px);*/
   margin-right: 10px;
 }
