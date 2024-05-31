@@ -6,6 +6,7 @@
 .services {
   background-color: #f5e4d5;
   text-align: center;
+  width: 100%;
 }
 
 .services h3 {
@@ -29,12 +30,11 @@
   grid-template-areas:
     "imagen1 descripcion1"
     "descripcion2 imagen2";
-  width: 100%;
 }
 
 .imagen1 {
   grid-area: imagen1;
-  width: 624px;
+  width: 600px;
   height: 578px;
   border-radius: 21px;
   /*box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);*/
@@ -83,10 +83,9 @@
 }
 .imagen2 {
   grid-area: imagen2;
-  width: 624px;
+  width: 600px;
   height: 578px;
   border-radius: 21px;
   /*box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);*/
   /*filter: blur(4.2px);*/
-  margin-right: 10px;
 }
