@@ -1,6 +1,6 @@
 .card {
   width: 280px;
-  height: 460px;
+  height: 500px;
   background-color: #dcd5f5;
   color: #251609;
   border-radius: 10px;
@@ -15,7 +15,7 @@
 
 .card img {
   width: 280px;
-  height: 230px;
+  height: 280px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -35,7 +35,7 @@
 
 /* Ajusta el padding del contenedor de texto */
 .card .text-content {
-  padding: 10px;
+  padding: 20spx;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
