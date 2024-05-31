@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 
-.header {
+#navbar {
   background-color: #423275;
   display: flex;
   align-items: center;
@@ -14,18 +14,18 @@
   z-index: 1000;
 }
 
-.logo-container {
+#navbar .logo-container {
   display: flex;
   align-items: center;
 }
 
-.logo {
+#navbar .logo {
   height: 30px;
   margin-right: 10px; /* Ajusta el espacio entre el logo y el texto */
   margin-left: 120px;
 }
 
-nav ul {
+#navbar ul {
   display: flex;
   list-style: none;
   gap: 30px;
@@ -33,7 +33,7 @@ nav ul {
   padding: 0;
 }
 
-nav a {
+#navbar ul li a {
   text-decoration: none;
   color: #f5e4d5;
   font-family: "Montserrat", sans-serif; /* Aplica la fuente Montserrat */
@@ -42,7 +42,77 @@ nav a {
   transition: transform 0.3s, font-size 0.3s; /* Agrega la transición */
 }
 
-nav a:hover {
+#navbar a:hover {
   transform: scale(1.1); /* Escala ligeramente al hacer hover */
   font-size: 15px; /* Aumenta el tamaño de fuente ligeramente al hacer hover */
+}
+
+.nav_toggle {
+  display: none;
+}
+
+/*ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
+@media (max-width: 768px) {
+  #navbar ul li a {
+    text-decoration: none;
+    text-align: center;
+    background-color: #423275;
+    height: auto;
+    margin-left: -50px;
+    margin-bottom: 10px;
+    color: #f5e4d5;
+  }
+  #navbar ul li a::before {
+    display: none;
+  }
+
+  #navbar .nav_items {
+    position: absolute;
+    top: 40px;
+    background: #423275;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    transform: translateX(100%);
+    transition: 0.3s ease all;
+    margin-left: 4rem;
+  }
+
+  .nav_items a {
+    text-align: center;
+  }
+
+  .nav_toggle {
+    display: flex !important;
+    flex-direction: column;
+    margin: 15px;
+  }
+
+  .nav_toggle span {
+    width: 30px;
+    height: 4px;
+    background: #f5e4d5;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform-origin: 5px 0px;
+    transition: all 0.2s linear;
+  }
+
+  .close span {
+    transform: rotate(45deg) translate(0px, 0px);
+  }
+
+  .close span:nth-child(2) {
+    display: none;
+  }
+
+  .close span:nth-child(3) {
+    transform: rotate(-45deg) translate(-5px, 1px);
+  }
+
+  .open {
+    transform: translateX(0) !important;
+  }
 }
