@@ -10,7 +10,7 @@ const NavBar = () => {
   };
 
   return (
-    <header id="home" className="header">
+    <header className="header">
       <div className="logo-container">
         <img src="/img/navBar/logoNavDesk.png" alt="Logo" className="logo" />
       </div>

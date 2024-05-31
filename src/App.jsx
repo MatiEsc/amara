@@ -8,6 +8,7 @@ import Contacto from "./componentes/Contacto/Contacto";
 import Principal from "./componentes/Principal/Principal";
 import Productos from "./componentes/Productos/Productos";
 import SobreNosotros from "./componentes/SobreNosotros/SobreNosotros";
+import WhatsAppButton from "./componentes/WhatsAppButton/WhatsAppButton";
 
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
       <Servicios />
       <SobreNosotros />
       <Contacto />
+      <WhatsAppButton />
       <Footer />
     </div>
   );

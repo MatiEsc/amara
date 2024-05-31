@@ -9,6 +9,9 @@
   height: 60px;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo-container {
