@@ -21,7 +21,7 @@
 
 #navbar .logo {
   height: 30px;
-  margin-right: 10px; /* Ajusta el espacio entre el logo y el texto */
+  margin-right: 10px;
   margin-left: 120px;
 }
 
@@ -36,48 +36,55 @@
 #navbar ul li a {
   text-decoration: none;
   color: #f5e4d5;
-  font-family: "Montserrat", sans-serif; /* Aplica la fuente Montserrat */
-  font-size: 14px; /* Tamaño de fuente de 14 píxeles */
-  text-transform: uppercase; /* Convierte el texto a mayúsculas */
-  transition: transform 0.3s, font-size 0.3s; /* Agrega la transición */
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: transform 0.3s, font-size 0.3s;
 }
 
 #navbar a:hover {
-  transform: scale(1.1); /* Escala ligeramente al hacer hover */
-  font-size: 15px; /* Aumenta el tamaño de fuente ligeramente al hacer hover */
+  transform: scale(1.1);
+  font-size: 15px;
 }
 
 .nav_toggle {
   display: none;
 }
 
-/*ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
+.logoMobile {
+  margin-left: 24px;
+}
+
+/* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
 @media (max-width: 768px) {
   #navbar ul li a {
     text-decoration: none;
-    text-align: center;
-    background-color: #423275;
-    height: auto;
-    margin-left: -50px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    color: #f5e4d5;
+    padding: 15px;
+    background-color: #423275;
+    text-align: center;
   }
   #navbar ul li a::before {
     display: none;
   }
 
-  #navbar .nav_items {
-    position: absolute;
-    top: 40px;
-    background: #423275;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    transform: translateX(100%);
-    transition: 0.3s ease all;
-    margin-left: 4rem;
+  @media (max-width: 768px) {
+    #navbar .nav_items {
+      position: absolute;
+      top: 40px;
+      right: -7.5rem; /* Ajusta según sea necesario */
+      background: #423275;
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      height: 200px;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-130%);
+      transition: 0.3s ease all;
+      padding: 10px 0;
+    }
   }
 
   .nav_items a {

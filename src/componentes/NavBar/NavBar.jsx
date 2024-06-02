@@ -1,9 +1,21 @@
 import { useState, useEffect } from "react";
-
 import "./NavBar.css";
 
 const NavBar = () => {
   const [menuVisible, setMenuVisible] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const toggleButton = document.getElementById("_toggle");
@@ -32,9 +44,13 @@ const NavBar = () => {
   return (
     <nav id="navbar">
       <div className="logo-container">
-        <img src="/img/navBar/logoNavDesk.png" alt="Logo" className="logo" />
+        {isMobile ? (
+          <img src="/img/navBar/logoMobile.png" alt="Logo Mobile" className="logoMobile" />
+        ) : (
+          <img src="/img/navBar/logoNavDesk.png" alt="Logo Desktop" className="logo" />
+        )}
       </div>
-      <ul className="nav_items" id="_items">
+      <ul className={`nav_items ${menuVisible ? "open" : ""}`} id="_items">
         <li>
           <a href="#home" onClick={(e) => handleClick(e, "home")}>
             Inicio
@@ -57,7 +73,11 @@ const NavBar = () => {
         </li>
       </ul>
 
-      <div className="nav_toggle" id="_toggle">
+      <div
+        className={`nav_toggle ${menuVisible ? "close" : ""}`}
+        id="_toggle"
+        onClick={() => setMenuVisible(!menuVisible)}
+      >
         <span></span>
         <span></span>
         <span></span>

@@ -42,3 +42,11 @@
   align-items: center;
   height: 100%; /* Asegura que tome todo el espacio disponible */
 }
+
+/* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
+@media (max-width: 768px) {
+  .card {
+    align-items: center;
+    margin-left: 5rem;
+  }
+}

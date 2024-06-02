@@ -17,3 +17,11 @@
   align-items: center; /* Para centrar verticalmente */
   margin: 0;
 }
+
+/* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
+@media (max-width: 768px) {
+  .contact h3 {
+    height: 70px;
+    font-size: 20pt;
+  }
+}

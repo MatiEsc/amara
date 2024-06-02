@@ -7,6 +7,9 @@
   background-color: #f5e4d5;
   text-align: center;
   width: 100%;
+  padding: 20px; /* Añadir padding para asegurar que el contenido no toque los bordes */
+  box-sizing: border-box; /* Incluye el padding en el ancho total del elemento */
+  overflow: hidden; /* Asegurar que no haya desbordamiento */
 }
 
 .services h3 {
@@ -19,73 +22,112 @@
   display: flex; /* Para centrar verticalmente */
   justify-content: center; /* Para centrar horizontalmente */
   align-items: center; /* Para centrar verticalmente */
+  margin: 0; /* Quitar márgenes */
 }
 
 .containerService {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
+  grid-template-rows: auto auto;
+  gap: 20px; /* Añadir espacio entre las áreas de la cuadrícula */
   grid-template-areas:
     "imagen1 descripcion1"
     "descripcion2 imagen2";
+  padding: 20px; /* Añadir padding para asegurar que el contenido no toque los bordes */
+  box-sizing: border-box; /* Incluye el padding en el ancho total del elemento */
 }
 
-.imagen1 {
-  grid-area: imagen1;
-  width: 600px;
-  height: 578px;
+.imagen1,
+.imagen2 {
+  width: calc(
+    100% - 40px
+  ); /* Restar el padding para asegurar que la imagen no exceda el contenedor */
+  height: auto;
+  max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
   border-radius: 21px;
-  /*box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);*/
-  /*filter: blur(4.2px);*/
-  margin-top: 110px;
-  margin-left: 100px;
+  margin: 20px; /* Añadir margen para asegurar espacio de 20px alrededor */
+}
+
+.descripcion1,
+.descripcion2 {
+  padding: 20px; /* Añadir padding para separar el texto del borde del contenedor */
+  box-sizing: border-box; /* Incluye el padding en el ancho total del elemento */
 }
 
 .descripcion1 {
   grid-area: descripcion1;
-  padding: 0 80px;
 }
 
-.descripcion1 h4 {
-  font-family: "corporative-light", sans-serif;
-  color: #251609;
-  font-size: 24pt;
-  margin-top: 300px;
-  text-align: start;
-}
-
-.descripcion1 p {
-  font-family: "Montserrat", sans-serif;
-  color: #251609;
-  font-size: 20pt;
-  text-align: start;
-}
 .descripcion2 {
   grid-area: descripcion2;
-  padding: 0 80px;
 }
 
+.descripcion1 h4,
 .descripcion2 h4 {
   font-family: "corporative-light", sans-serif;
   color: #251609;
   font-size: 24pt;
-  margin-top: 200px;
+  margin-top: 20px; /* Reducir margen superior */
   text-align: start;
 }
 
+.descripcion1 p,
 .descripcion2 p {
   font-family: "Montserrat", sans-serif;
   color: #251609;
   font-size: 20pt;
   text-align: start;
+  margin: 10px 0; /* Añadir margen vertical para separar los párrafos */
 }
-.imagen2 {
-  grid-area: imagen2;
-  width: 600px;
-  height: 578px;
-  border-radius: 21px;
-  /*box-shadow: 0px 4.2px 4.2px rgba(0, 0, 0, 0.25);*/
-  /*filter: blur(4.2px);*/
+
+/* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
+@media (max-width: 768px) {
+  .services {
+    padding: 20px 0; /* Ajustar el padding para que no haya espacio adicional */
+  }
+
+  .services h3 {
+    height: 70px;
+    font-size: 20pt;
+    width: 100%;
+    margin: 0; /* Quitar márgenes */
+  }
+
+  .containerService {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "imagen1"
+      "descripcion1"
+      "imagen2"
+      "descripcion2";
+    padding: 10px; /* Ajustar padding para dispositivos móviles */
+  }
+
+  .imagen1,
+  .imagen2 {
+    width: calc(
+      100% - 40px
+    ); /* Restar el padding para asegurar que la imagen no exceda el contenedor */
+    height: auto;
+    margin: 10px auto; /* Ajustar margen para dispositivos móviles */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  }
+
+  .descripcion1,
+  .descripcion2 {
+    padding: 20px; /* Ajustar padding para dispositivos móviles */
+  }
+
+  .descripcion1 h4,
+  .descripcion2 h4 {
+    margin-top: 10px;
+    font-size: 24pt; /* Reducir tamaño de fuente en dispositivos móviles */
+  }
+
+  .descripcion1 p,
+  .descripcion2 p {
+    font-size: 14pt; /* Reducir tamaño de fuente en dispositivos móviles */
+    margin: 10px 0; /* Añadir margen vertical para separar los párrafos */
+  }
 }

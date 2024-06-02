@@ -26,6 +26,9 @@
 .footer-content h4 {
   font-size: 20px;
   color: #f5e4d5;
+  margin: 0;
+  padding: 0;
+  background-color: #423275;
 }
 
 .footer-content p {
@@ -58,4 +61,14 @@
 
 .icon-link:hover {
   color: #f2bac9; /* Color al pasar el mouse por encima */
+}
+
+/* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
+@media (max-width: 768px) {
+  .footer-content h4 {
+    font-size: 14pt;
+  }
+  .footer-content p {
+    font-size: 14px;
+  }
 }

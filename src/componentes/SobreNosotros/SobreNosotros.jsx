@@ -2,10 +2,9 @@ import "./SobreNosotros.css";
 
 const SobreNosotros = () => {
   return (
-    <>
-      <section id="sobreNosotros" className="sobreNosotros">
+    <div id="sobreNosotros" className="descripcion">
+      <section className="sobreNosotros">
         <h3>Sobre nosotros</h3>
-
         <img src="/img/sobreNosotros/rectangle74.png" alt="imagen" />
         <p>
           Venta minorista y mayorista de velas, difusores y bombones aromáticos. Además encontrarás
@@ -15,7 +14,7 @@ const SobreNosotros = () => {
       <section className="logoFinal">
         <img src="/img/sobreNosotros/logo.png" alt="Logo" className="logo" />
       </section>
-    </>
+    </div>
   );
 };
 

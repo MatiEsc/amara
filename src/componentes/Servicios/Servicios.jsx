@@ -6,7 +6,12 @@ const Servicios = () => {
       <h3>Servicios</h3>
       <div className="containerService">
         <div className="imagen1">
-          <img src="/img/servicios/refill.png" alt="refill" />
+          <img
+            src="/img/servicios/refill.png"
+            srcSet="/img/servicios/refillMobile.png 600w, /img/servicios/refill.png 1200w"
+            sizes="(max-width: 768px) 600px, 1200px"
+            alt="refill"
+          />
         </div>
         <div className="descripcion1">
           <h4>REFILL DE VELAS Y DIFUSORES AROMATICOS</h4>
@@ -24,7 +29,12 @@ const Servicios = () => {
           </p>
         </div>
         <div className="imagen2">
-          <img src="/img/servicios/BackgroundBorder.png" alt="backgroundBorder" />
+          <img
+            src="/img/servicios/BackgroundBorder.png"
+            srcSet="/img/servicios/souvenirsMobile.png 600w, /img/servicios/BackgroundBorder.png 1200w"
+            sizes="(max-width: 768px) 600px, 1200px"
+            alt="backgroundBorder"
+          />
         </div>
       </div>
     </section>

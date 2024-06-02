@@ -59,3 +59,45 @@
 .slick-next {
   right: -35px;
 }
+
+/* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
+@media (max-width: 768px) {
+  .products {
+    padding-top: 10px;
+  }
+  h3 {
+    height: 70px;
+    font-size: 24pt;
+  }
+  h4 {
+    height: 70px;
+    background-color: #f5e4d5;
+    color: #251609;
+    font-size: 24pt;
+  }
+  .contenedorCards {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .slick-prev,
+  .slick-next {
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .slick-prev {
+    left: 50px;
+  }
+
+  .slick-next {
+    right: 50px;
+  }
+}
