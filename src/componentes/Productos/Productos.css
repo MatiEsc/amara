@@ -80,8 +80,6 @@
     margin-right: 1rem;
     justify-content: center;
     align-items: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
   }
 
   .slick-prev,
@@ -94,7 +92,7 @@
   }
 
   .slick-prev {
-    left: 1rempx;
+    left: 1rem;
   }
 
   .slick-next {
