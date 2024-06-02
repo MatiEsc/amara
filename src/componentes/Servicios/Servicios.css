@@ -128,6 +128,6 @@
   .descripcion1 p,
   .descripcion2 p {
     font-size: 14pt; /* Reducir tamaño de fuente en dispositivos móviles */
-    margin: 10px 0; /* Añadir margen vertical para separar los párrafos */
+    margin-top: 30px;
   }
 }
