@@ -4,13 +4,13 @@
   background-color: #dcd5f5;
   color: #251609;
   border-radius: 10px;
-  margin: 1rem; /* Margin uniforme alrededor de cada tarjeta */
+  margin: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  overflow: hidden; /* Asegura que el contenido no se desborde */
+  overflow: hidden;
 }
 
 .card img {
@@ -23,24 +23,23 @@
 .card h5 {
   font-family: "CorporativeRegular", sans-serif;
   font-size: 18pt;
-  margin: 10px 0; /* Ajusta el margen superior e inferior */
+  margin: 10px 0;
 }
 
 .card p {
   font-family: "Montserrat", sans-serif;
   font-size: 14pt;
-  margin: 5px 0; /* Ajusta el margen superior e inferior */
-  text-align: center; /* Opcional: centra el texto */
+  margin: 5px 0;
+  text-align: center;
 }
 
-/* Ajusta el padding del contenedor de texto */
 .card .text-content {
   padding: 20spx;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100%; /* Asegura que tome todo el espacio disponible */
+  height: 100%;
 }
 
 /* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */

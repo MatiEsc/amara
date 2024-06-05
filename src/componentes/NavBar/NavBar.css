@@ -73,7 +73,7 @@
     #navbar .nav_items {
       position: absolute;
       top: 40px;
-      right: -7.5rem; /* Ajusta según sea necesario */
+      right: -7.5rem;
       background: #423275;
       display: flex;
       flex-direction: column;

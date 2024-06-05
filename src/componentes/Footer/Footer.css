@@ -11,9 +11,9 @@
   right: 0;
   box-sizing: border-box;
   margin: 0;
-  display: flex; /* Utilizar flexbox para centrar el contenido */
-  align-items: center; /* Centrar verticalmente */
-  justify-content: center; /* Centrar horizontalmente */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-content {
@@ -48,19 +48,19 @@
 }
 
 .icon-link {
-  color: #f5e4d5; /* Asegura que el color de los íconos sea blanco */
-  border: 1px solid #f5e4d5; /* Contorno blanco del círculo */
+  color: #f5e4d5;
+  border: 1px solid #f5e4d5;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px; /* Ajustar según el tamaño deseado */
-  height: 40.13px; /* Ajustar según el tamaño deseado */
+  width: 40px;
+  height: 40.13px;
   text-decoration: none;
 }
 
 .icon-link:hover {
-  color: #f2bac9; /* Color al pasar el mouse por encima */
+  color: #f2bac9;
 }
 
 /* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */

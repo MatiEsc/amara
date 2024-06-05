@@ -15,15 +15,15 @@
 }
 
 .products h3 {
-  font-family: "HolidayFree", sans-serif; /* Aplica la fuente HolidayFree */
-  font-size: 32pt; /* Tamaño de fuente de 32 puntos */
-  background-color: #f2bac9; /* Color de fondo */
-  color: #251609; /* Color de texto */
+  font-family: "HolidayFree", sans-serif;
+  font-size: 32pt;
+  background-color: #f2bac9;
+  color: #251609;
   width: 100%;
   height: 100px;
-  display: flex; /* Para centrar verticalmente */
-  justify-content: center; /* Para centrar horizontalmente */
-  align-items: center; /* Para centrar verticalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products h4 {
@@ -40,7 +40,7 @@
 }
 
 .cards {
-  padding: 0 15px; /* Añade padding a los contenedores de las tarjetas */
+  padding: 0 15px;
 }
 
 .slick-prev,
@@ -76,8 +76,8 @@
     font-size: 24pt;
   }
   .contenedorCards {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 8rem;
+    margin-right: 3rem;
     justify-content: center;
     align-items: center;
   }
@@ -92,10 +92,10 @@
   }
 
   .slick-prev {
-    left: 1rem;
+    left: -5rem;
   }
 
   .slick-next {
-    right: 1rem;
+    right: -1rem;
   }
 }

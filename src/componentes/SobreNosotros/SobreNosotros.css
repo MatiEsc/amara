@@ -1,17 +1,17 @@
 .sobreNosotros {
-  position: relative; /* Establece la posición relativa para que los elementos internos se posicionen relativamente a este contenedor */
+  position: relative;
 }
 
 .sobreNosotros h3 {
-  font-family: "HolidayFree", sans-serif; /* Aplica la fuente HolidayFree */
-  font-size: 32pt; /* Tamaño de fuente de 32 puntos */
-  background-color: #f2bac9; /* Color de fondo */
-  color: #251609; /* Color de texto */
+  font-family: "HolidayFree", sans-serif;
+  font-size: 32pt;
+  background-color: #f2bac9;
+  color: #251609;
   width: 100%;
   height: 100px;
-  display: flex; /* Para centrar verticalmente */
-  justify-content: center; /* Para centrar horizontalmente */
-  align-items: center; /* Para centrar verticalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 0;
 }
 
@@ -23,11 +23,11 @@
 }
 
 .sobreNosotros p {
-  position: absolute; /* Establece la posición absoluta para que el párrafo se posicione sobre la imagen */
-  top: 15rem; /* Margen superior */
-  left: 45rem; /* Margen izquierdo */
-  bottom: 576px; /* Margen inferior */
-  right: 52.72px; /* Margen derecho */
+  position: absolute;
+  top: 15rem;
+  left: 45rem;
+  bottom: 576px;
+  right: 52.72px;
   font-family: "Montserrat", sans-serif;
   color: #251609;
   font-size: 26pt;

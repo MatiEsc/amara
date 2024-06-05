@@ -6,52 +6,49 @@
 .services {
   background-color: #f5e4d5;
   text-align: center;
-  width: 100%;
-  padding: 20px; /* Añadir padding para asegurar que el contenido no toque los bordes */
-  box-sizing: border-box; /* Incluye el padding en el ancho total del elemento */
+  width: 100%; /* Ancho del contenedor al 100% */
+  padding: 20px 0; /* Ajustar el relleno para que no haya espacio adicional */
+  box-sizing: border-box; /* Incluye el relleno en el ancho total del elemento */
   overflow: hidden; /* Asegurar que no haya desbordamiento */
 }
 
 .services h3 {
-  font-family: "HolidayFree", sans-serif; /* Aplica la fuente HolidayFree */
-  font-size: 32pt; /* Tamaño de fuente de 32 puntos */
-  background-color: #f2bac9; /* Color de fondo */
-  color: #251609; /* Color de texto */
-  width: 100%;
-  height: 100px;
-  display: flex; /* Para centrar verticalmente */
-  justify-content: center; /* Para centrar horizontalmente */
-  align-items: center; /* Para centrar verticalmente */
-  margin: 0; /* Quitar márgenes */
+  font-family: "HolidayFree", sans-serif;
+  font-size: 32pt;
+  background-color: #f2bac9;
+  color: #251609;
+  width: 100%; /* Ancho del título al 100% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .containerService {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
-  gap: 20px; /* Añadir espacio entre las áreas de la cuadrícula */
+  gap: 20px;
   grid-template-areas:
     "imagen1 descripcion1"
     "descripcion2 imagen2";
-  padding: 20px; /* Añadir padding para asegurar que el contenido no toque los bordes */
-  box-sizing: border-box; /* Incluye el padding en el ancho total del elemento */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .imagen1,
 .imagen2 {
-  width: calc(
-    100% - 40px
-  ); /* Restar el padding para asegurar que la imagen no exceda el contenedor */
+  width: calc(100% - 40px);
   height: auto;
-  max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  max-width: 100%;
   border-radius: 21px;
-  margin: 20px; /* Añadir margen para asegurar espacio de 20px alrededor */
+  margin: 20px;
 }
 
 .descripcion1,
 .descripcion2 {
-  padding: 20px; /* Añadir padding para separar el texto del borde del contenedor */
-  box-sizing: border-box; /* Incluye el padding en el ancho total del elemento */
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .descripcion1 {
@@ -67,7 +64,7 @@
   font-family: "corporative-light", sans-serif;
   color: #251609;
   font-size: 24pt;
-  margin-top: 20px; /* Reducir margen superior */
+  margin-top: 20px;
   text-align: start;
 }
 
@@ -77,20 +74,20 @@
   color: #251609;
   font-size: 20pt;
   text-align: start;
-  margin: 10px 0; /* Añadir margen vertical para separar los párrafos */
+  margin: 10px 0;
 }
 
 /* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
 @media (max-width: 768px) {
   .services {
-    padding: 20px 0; /* Ajustar el padding para que no haya espacio adicional */
+    padding: 20px 0;
   }
 
   .services h3 {
     height: 70px;
     font-size: 20pt;
     width: 100%;
-    margin: 0; /* Quitar márgenes */
+    margin: 0;
   }
 
   .containerService {
@@ -101,33 +98,31 @@
       "descripcion1"
       "imagen2"
       "descripcion2";
-    padding: 10px; /* Ajustar padding para dispositivos móviles */
+    padding: 10px;
   }
 
   .imagen1,
   .imagen2 {
-    width: calc(
-      100% - 40px
-    ); /* Restar el padding para asegurar que la imagen no exceda el contenedor */
+    width: calc(100% - 40px);
     height: auto;
-    margin: 10px auto; /* Ajustar margen para dispositivos móviles */
-    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    margin: 10px auto;
+    max-width: 100%;
   }
 
   .descripcion1,
   .descripcion2 {
-    padding: 20px; /* Ajustar padding para dispositivos móviles */
+    padding: 20px;
   }
 
   .descripcion1 h4,
   .descripcion2 h4 {
     margin-top: 10px;
-    font-size: 24pt; /* Reducir tamaño de fuente en dispositivos móviles */
+    font-size: 24pt;
   }
 
   .descripcion1 p,
   .descripcion2 p {
-    font-size: 14pt; /* Reducir tamaño de fuente en dispositivos móviles */
+    font-size: 14pt;
     margin-top: 30px;
   }
 }
