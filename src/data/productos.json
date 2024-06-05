@@ -96,7 +96,7 @@
     {
       "nombre": "VELAS DESEOS",
       "imagen": "/img/aroma/velaDeseos.jpg",
-      "material": "",
+      "material": "madera",
       "variantes": [
         "Presentadas en caja con visor en caso de los 16 deseos. Si es individual se utilizan para las tortas."
       ],
@@ -113,14 +113,14 @@
       "nombre": "CUENCOS REDONDOS",
       "imagen": "/img/aroma/cuencoMadera.jpg",
       "material": "madera",
-      "variantes": [""],
+      "variantes": ["Unico"],
       "medidas": "chico 80gr, mediano 100gr, grande 140gr"
     },
     {
       "nombre": "CUENCOS CORAZÓN-ESTRELLA",
       "imagen": "/img/aroma/cuencoCorazon.jpg",
       "material": "madera",
-      "variantes": [""],
+      "variantes": ["Unico"],
       "medidas": "20gr"
     },
     {
@@ -134,7 +134,7 @@
       "nombre": "VELA VOLCÁN",
       "imagen": "/img/aroma/velaVolcan.jpg",
       "material": "vidrio",
-      "variantes": [""],
+      "variantes": ["Unico"],
       "medidas": "180 gr"
     },
     {

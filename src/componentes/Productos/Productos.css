@@ -76,7 +76,7 @@
     font-size: 24pt;
   }
   .contenedorCards {
-    margin-left: 8rem;
+    margin-left: 3rem;
     margin-right: 3rem;
     justify-content: center;
     align-items: center;
@@ -92,7 +92,7 @@
   }
 
   .slick-prev {
-    left: -5rem;
+    left: -1rem;
   }
 
   .slick-next {
