@@ -1,3 +1,9 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .card {
   width: 280px;
   height: 500px;
@@ -33,20 +39,13 @@
   text-align: center;
 }
 
-.card .text-content {
-  padding: 20spx;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-
 /* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
 @media (max-width: 768px) {
+  .card-container {
+    justify-content: center;
+  }
+
   .card {
-    align-items: center;
-    margin-left: 2 rem;
-    margin-right: 2 rem;
+    margin: 1rem 0.5rem; /* Reducir el margen vertical y horizontal */
   }
 }
