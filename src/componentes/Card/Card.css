@@ -6,39 +6,39 @@
 
 .card {
   width: 280px;
-  height: auto; /* Ajustar altura automáticamente */
+  height: auto;
   background-color: #dcd5f5;
   color: #251609;
   border-radius: 10px;
-  margin: 2rem; /* Incrementar margen para más espacio entre las tarjetas */
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 1rem; /* Añadir padding para espaciar el contenido */
-  overflow: hidden; /* Ocultar cualquier desbordamiento */
+  padding: 1rem;
+  overflow: hidden;
 }
 
 .card img {
-  width: 100%; /* Ajustar la imagen al ancho del contenedor */
-  height: auto; /* Ajustar la altura automáticamente */
+  width: 100%;
+  height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .card h5 {
   font-family: "CorporativeRegular", sans-serif;
-  font-size: 16pt; /* Reducir tamaño de la fuente */
+  font-size: 16pt;
   margin: 10px 0;
 }
 
 .card p {
   font-family: "Montserrat", sans-serif;
-  font-size: 12pt; /* Reducir tamaño de la fuente */
+  font-size: 12pt;
   margin: 5px 0;
   text-align: center;
-  padding: 0 10px; /* Añadir padding para que el texto no toque los bordes */
+  padding: 0 10px;
 }
 
 /* ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
@@ -48,19 +48,19 @@
   }
 
   .card {
-    margin: 1rem 0.5rem; /* Reducir el margen vertical y horizontal */
+    margin: 1rem 0.5rem;
   }
 
   .card img {
-    width: 100%; /* Ajustar la imagen al ancho del contenedor */
-    height: auto; /* Ajustar la altura automáticamente */
+    width: 100%;
+    height: auto;
   }
 
   .card h5 {
-    font-size: 14pt; /* Reducir tamaño de la fuente para móviles */
+    font-size: 14pt;
   }
 
   .card p {
-    font-size: 12pt; /* Ajustar tamaño de la fuente para móviles */
+    font-size: 12pt;
   }
 }
