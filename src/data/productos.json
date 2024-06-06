@@ -218,8 +218,12 @@
       "nombre": "BOMBONES DE AROMA",
       "imagen": "/img/aroma/bombonAroma.jpg",
       "material": "vela",
-      "variantes": ["Presentación en cajitas con visor", "Presentación en bolsitas de organza"],
-      "medidas": "1cm/3cm, Escencia solida para hornitos y para decorar espacios"
+      "variantes": [
+        "Presentación en cajitas con visor",
+        "Presentación en bolsitas de organza",
+        "Escencia solida para hornitos y para decorar espacios"
+      ],
+      "medidas": "1cm/3cm"
     },
     {
       "nombre": "DIFUSORES PLÁSTICO",
