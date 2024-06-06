@@ -23,3 +23,9 @@ Instalar mi proyecto con npm
 
 - [@MatiasEscobar]
   (https://www.github.com/MatiEsc) (https://www.linkedin.com/in/matias-ezequiel-escobar)
+
+- [@MariaLauraManduca]
+  (https://www.behance.net/lauramanduca) (https://www.linkedin.com/in/laura-manduca23/)
+
+- [@FrancoGrandotti]
+  (https://www.behance.net/francograndotti) (https://www.linkedin.com/in/franco-grandotti)
