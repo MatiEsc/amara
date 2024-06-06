@@ -8,10 +8,10 @@ const Card = ({ producto }) => {
       {/* Nuevo contenedor */}
       <div className="card">
         <img className="cardImagen" src={producto.imagen} alt={producto.nombre} />
-        <h5>{producto.nombre}</h5>
-        <p>Material: {producto.material}</p>
-        <p>Variantes: {producto.variantes.join(", ")}</p>
-        <p>Medidas: {producto.medidas}</p>
+        <h5 translate="no">{producto.nombre}</h5>
+        <p translate="no">Material: {producto.material}</p>
+        <p translate="no">Variantes: {producto.variantes.join(", ")}</p>
+        <p translate="no">Medidas: {producto.medidas}</p>
       </div>
     </div>
   );
