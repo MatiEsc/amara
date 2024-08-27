@@ -1,4 +1,4 @@
-# Motz-Regaleria
+# Amara
 
 Este proyecto representa una landing page dedicada a la venta minorista y mayorista de velas, difusores y bombones aromáticos; Ademas ofrece todos los accesorios de decoración para el hogar. La plataforma ofrece a los usuarios la posibilidad de explorar una variada gama de productos, facilitando la búsqueda mediante el menu superior, garantizando una experiencia fluida y personalizada.
 
